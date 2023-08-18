@@ -45,3 +45,22 @@ h1 {
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
+
+
+.box {
+  max-height: 100%;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  flex-direction: column;
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

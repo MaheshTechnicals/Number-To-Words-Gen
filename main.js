@@ -1,5 +1,6 @@
 let input = document.querySelector("#input")
 let btn = document.querySelector("#btn")
+let result = document.querySelector("body")
 
 btn.addEventListener("click", () => {
 
@@ -17,7 +18,15 @@ let num2word = () => {
     console.log("Please Enter Valid Number")
   }
   else {
-    console.log("bye")
+    let convert = n2w.toWords(input.value)
+
+    let a = document.createElement("div")
+    a.classList = "box"
+    a.innerText = convert
+
+    result.appendChild(a)
+    input.value = ""
+
   }
 
 
